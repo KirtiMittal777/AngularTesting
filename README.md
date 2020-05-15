@@ -1,3 +1,15 @@
+## How to run the project for unit testing and integration testing
+Step 1: Please take clone or download project in your system
+
+Step 2: Run npm install to install the required dependenices
+
+Step 3: Run command 'ng test' in terminal to run the unit test
+NOTE: Browser will automatically open on port:9876 and execute test.
+
+Step 4: Run command 'ng e2e' to run intergration testing 
+NOTE: Browser wll automatically open and run the flow 
+i.e. entering name and password and click on login and then navigate to dashboard.
+
 ## Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
