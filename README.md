@@ -1,27 +1,29 @@
-# UnitTesting
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
 ## Running unit tests
-
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
-
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## The Assets folder contains the screenshots of unit testing and integration testing 
+Please refer TESTING SCREENSHOTS.docs
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## The unit testing file which contains the spec is named as - 
+login.component.spec.ts
+
+## The end to end  testing main files which contains the test are under e2e folder with name as - 
+base.po.ts, mainPage.e2e-spec.ts
+
+## Description of project
+The project basically contains a login component which on successful redirection will navigate to 
+dashboard component, and covers the unit testing and integration testing for it
+
+The app component will incude a router-outlet, the project initially navigate to login component and
+then via loginservice it will check whether the user is authenticated or not.
+
+Unit testing for it will contain a LoginMockService into login spec, the mock service will be under 
+src - app - tests folder with name as login.mock.service.ts
+
+Integration testing for it will be under e2e folder and all the files will be in src folder under that.
+
+
+
