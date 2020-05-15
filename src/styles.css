@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-size:14px;
+  }
+
+ button {
+   border-radius:0!important
+ } 
+
+.error {
+    color: red;
+    font-size:small;
+}
+
+.form-component {
+  border: 2px solid gray;
+  width: 28%;
+  box-shadow: 3px 5px #888888;
+  position: absolute;
+  left: 30%;
+  top:15%;
+  padding: 8px 10px 20px 20px;
+  background-image:
+  linear-gradient(
+    45deg,
+    #f5f7fa,
+    #c3cfe2
+  )
+;
+}
+
+button:hover {
+    opacity: 0.4!important
+}
+
+
+.ng-invalid.ng-touched:not(form), .ng-invalid:not(form).form-submitted {
+  border: solid 2px lightcoral;
+}
+
+.text-success {
+  font-size:15px;
+}
+
+.space{
+  margin-top:5%;
+}
+
+.card {
+  width:70%;
+  margin-left:15%;
+}
